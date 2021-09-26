@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tabmenu{
+    text-align: center;
+    margin-top:50px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+    /*font-style: ;*/
+    border:1px solid rgb(79, 236, 236);
+    border: 10x solid white;
+    /*background-color: rgb(79, 236, 236);*/
+}
+
+.content{
+    margin-top: 120px;
+    margin-left: 60px;
+    font-style: 'FatFrank-Regular', sans-serif;
+}
+
+h1{
+    color: rgb(247, 204, 12);
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 100px;
+    
+
+}
+
+.container1{
+    
+    background-image: url(../resources/img/little-kids-at-swimming-pool-on-sunny-day.jpg);
+    background-color: aquamarine; /*Used if the image is unavailable*/
+    height: 1200px;/*We must set a specified height*/
+    background-position: center;/*Center the image*/
+    /* background-size: 800px 450px; */
+    background-repeat: no-repeat;/*Do not repeat the image*/
+    background-size: cover;/*Resize the background image to cover the entire container*/
+
+
+}
+
